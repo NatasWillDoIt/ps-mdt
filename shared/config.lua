@@ -24,7 +24,7 @@ Config.BillVariation = true
 Config.InventoryForWeaponsImages = "lj-inventory"
 
 -- "LegacyFuel", "lj-fuel", "ps-fuel"
-Config.Fuel = "ps-fuel"
+Config.Fuel = "cdn-fuel"
 
 -- Google Docs Link
 Config.sopLink = {
