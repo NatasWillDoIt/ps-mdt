@@ -8,11 +8,11 @@ Config.UseCQCMugshot = true
 Config.MugPhotos = 1
 
 -- Images for mug shots will be uploaded here. Add a Discord webhook. 
-Config.Webhook = ''
+Config.Webhook = 'https://discord.com/api/webhooks/1098588442088194178/QLWS7xcepQYFC75u9TrC5LGtcC8sD9IqgIgUp0V02vtsbF3YsJCbFSA_VOfXpbKFslj3'
 
 -- Clock-in notifications for duty. Add a Discord webhook.
 -- Command /mdtleaderboard, will display top players per clock-in hours.
-Config.ClockinWebhook = ''
+Config.ClockinWebhook = 'https://discord.com/api/webhooks/1098588729439952937/-FHwALh7XLg13eK3L-YUTfFdgOnePvjvAr9hKv7H1h7goGXcKXdBqGuVdGZQp0eekVqH'
 
 -- If set to true = Fine gets automatically removed from bank automatically charging the player.
 -- If set to false = The fine gets sent as an Invoice to their phone and it us to the player to pay for it, can remain unpaid and ignored.
@@ -21,7 +21,7 @@ Config.BillVariation = true
 -- Set up your inventory to automatically retrieve images when a weapon is registered at a weapon shop or self-registered.
 -- If you're utilizing lj-inventory's latest version from GitHub, no further modifications are necessary. 
 -- However, if you're using a different inventory system, please refer to the "Inventory Edit | Automatic Add Weapons with images" section in ps-mdt's README.
-Config.InventoryForWeaponsImages = "lj-inventory"
+Config.InventoryForWeaponsImages = "ox_inventory"
 
 -- "LegacyFuel", "lj-fuel", "ps-fuel"
 Config.Fuel = "cdn-fuel"
@@ -70,6 +70,7 @@ Config.AmbulanceJobs = {
 }
 
 Config.DojJobs = {
+    ['bjb'] = true,
     ['lawyer'] = true,
     ['judge'] = true
 }
@@ -84,7 +85,7 @@ Config.ImpoundLocations = {
 
 -- Support for Wraith ARS 2X. 
 
-Config.UseWolfknightRadar = false
+Config.UseWolfknightRadar = true
 Config.WolfknightNotifyTime = 5000 -- How long the notification displays for in milliseconds (30000 = 30 seconds)
 
 -- IMPORTANT: To avoid making excessive database queries, modify this config to true 'CONFIG.use_sonorancad = true' setting in the configuration file located at 'wk_wars2x/config.lua'. 
