@@ -5,14 +5,14 @@ local handle, board, board_scaleform, overlay, ped, pedcoords, x, y, z, r, suspe
 local MugShots = {}
 
 -- Mugshot location  ( Position is the default QBCore Prison Interior )
-	x = 438.19540405273
-    y = -987.86706542969
-    z = 26.674386978149
-    r = {x = 0.0, y = 0.0, z = 73.674476623535}
-    suspectheading = 276.2844543457
-    suspectx = 432.55569458008
-    suspecty = -985.74383544922
-    suspectz = 26.674386978149
+	x = 483.92
+    y = -999.95
+    z = 25.47
+    r = {x = 0.0, y = 0.0, z = 8.26}
+    suspectheading = 4.2342648506165
+    suspectx = 484.03952026367
+    suspecty = -999.99468994141
+    suspectz = 25.467393875122
 	
 -- Mugshot functions
 
@@ -123,7 +123,7 @@ local function PrepBoard()
 end
 
 local function MakeBoard()
-    title = "Bolingbroke Penitentiary"
+    title = "Police Dept"
     center = playerData.charinfo.firstname.. " ".. playerData.charinfo.lastname
     footer = playerData.citizenid
     header = playerData.charinfo.birthdate
